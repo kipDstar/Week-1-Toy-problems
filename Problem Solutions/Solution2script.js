@@ -1,10 +1,9 @@
-// speed detector
 let speedOfCar = Number(prompt("Enter speed of vehicle: "));
 
 function speedLimitChecker(speedOfCar) {
     switch (true) {
         case speedOfCar < 70:
-            console.log("OK")
+            console.log("OK");
             break;
         case speedOfCar > 70:
             let demeritPoints = 0;
@@ -21,6 +20,6 @@ function speedLimitChecker(speedOfCar) {
             console.log("Invalid speed: Please enter a valid speed!");
             break;
     }
-     
 }
+
 speedLimitChecker(speedOfCar);
